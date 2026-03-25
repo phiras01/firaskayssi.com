@@ -61,12 +61,15 @@ function Research() {
 
 function Teaching() {
   return (
-    <div className="text-center">
-      <h2 className="text-2xl font-bold mb-4">Teaching</h2>
-      <p className="leading-relaxed">
-        Welcome to the Teaching page. Here, you will find details about Lucas Firas Kayssi's teaching experience, 
-        courses taught, and educational philosophy. This section will be updated soon.
-      </p>
+    <div className="max-w-3xl mx-auto">
+      <h2 className="text-2xl font-bold mb-6 text-center">Teaching Experience</h2>
+      <ul className="list-disc pl-6 space-y-3 text-lg leading-relaxed">
+        <li><strong>2CT3 Critical Thinking</strong> (philosophy department), Fall 2023</li>
+        <li><strong>1BB3 Argumentation</strong> (philosophy department), Winter 2024</li>
+        <li><strong>1F03 Meaning in Life</strong> (philosophy department), Fall 2024</li>
+        <li><strong>1E03 Philosophical Questions</strong> (philosophy department), Winter 2025</li>
+        <li><strong>PHIL1000 Intro to Philosophy</strong> (philosophy department), Fall 2025–Winter 2026</li>
+      </ul>
     </div>
   );
 }
