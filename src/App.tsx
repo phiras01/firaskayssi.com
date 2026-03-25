@@ -97,7 +97,7 @@ function Contact() {
     <div className="text-center">
       <h2 className="text-2xl font-bold mb-4">Contact</h2>
       <p className="leading-relaxed">
-        Email: <a href="mailto:kayssil@mcmaster.ca" className="text-blue-600 hover:underline">kayssil@mcmaster.ca</a>
+        Email: <a href="mailto:lfkayssi@yorku.ca" className="text-blue-600 hover:underline">lfkayssi@yorku.ca</a>
       </p>
     </div>
   );
