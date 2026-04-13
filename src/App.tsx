@@ -15,8 +15,6 @@ function Layout({ children }: { children: React.ReactNode }) {
         <NavLink to="/about" className={({ isActive }) => `mx-4 no-underline hover:underline ${isActive ? 'text-white' : 'text-black'}`}>About</NavLink>
         <NavLink to="/research" className={({ isActive }) => `mx-4 no-underline hover:underline ${isActive ? 'text-white' : 'text-black'}`}>Research</NavLink>
         <NavLink to="/teaching" className={({ isActive }) => `mx-4 no-underline hover:underline ${isActive ? 'text-white' : 'text-black'}`}>Teaching</NavLink>
-        <NavLink to="/cv" className={({ isActive }) => `mx-4 no-underline hover:underline ${isActive ? 'text-white' : 'text-black'}`}>CV</NavLink>
-        <NavLink to="/contact" className={({ isActive }) => `mx-4 no-underline hover:underline ${isActive ? 'text-white' : 'text-black'}`}>Contact</NavLink>
       </nav>
       <main className="flex-grow p-8">
         {children}
@@ -35,13 +33,26 @@ function About() {
           This section will be updated soon with more details about his background, interests, and work.
         </p>
       </div>
-      <div className="w-[35%] text-right self-start">
+      <div className="w-[35%] text-right self-start flex flex-col items-end">
         <img 
           src="https://raw.githubusercontent.com/phiras01/firaskayssi.com/main/fk-logo.jpg" 
           alt="Lucas Firas Kayssi Logo" 
-          className="w-[533px] max-w-full h-auto rounded-lg"
+          className="w-[533px] max-w-full h-auto rounded-lg mb-4"
           referrerPolicy="no-referrer"
         />
+        <p className="leading-relaxed mb-2 text-lg">
+          Email: <a href="mailto:lfkayssi@yorku.ca" className="text-blue-600 hover:underline">lfkayssi@yorku.ca</a>
+        </p>
+        <p className="leading-relaxed text-lg">
+          <a 
+            href="https://cdn.jsdelivr.net/gh/phiras01/firaskayssi.com@main/Lucas%20CV.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Here
+          </a> is my CV.
+        </p>
       </div>
     </div>
   );
@@ -74,35 +85,6 @@ function Teaching() {
   );
 }
 
-function CV() {
-  return (
-    <div className="text-center">
-      <h2 className="text-2xl font-bold mb-4">CV</h2>
-      <p className="leading-relaxed">
-        <a 
-          href="https://cdn.jsdelivr.net/gh/phiras01/firaskayssi.com@main/Lucas%20CV.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-blue-600 hover:underline"
-        >
-          Here
-        </a> is my CV.
-      </p>
-    </div>
-  );
-}
-
-function Contact() {
-  return (
-    <div className="text-center">
-      <h2 className="text-2xl font-bold mb-4">Contact</h2>
-      <p className="leading-relaxed">
-        Email: <a href="mailto:lfkayssi@yorku.ca" className="text-blue-600 hover:underline">lfkayssi@yorku.ca</a>
-      </p>
-    </div>
-  );
-}
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -112,8 +94,6 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/research" element={<Research />} />
           <Route path="/teaching" element={<Teaching />} />
-          <Route path="/cv" element={<CV />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/about" replace />} />
         </Routes>
       </Layout>
