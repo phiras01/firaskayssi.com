@@ -38,7 +38,7 @@ function About() {
           I was a research assistant at The/La Collaborative, a non-profit think tank focused on promoting the impact of social sciences, humanities, and arts on social innovation.
         </p>
         <p className="leading-relaxed">
-          Outside of my work, I like spending time seeing friends and family, working out, going on walks, playing video games, I enjoy playing my guitars, and leather crafting.
+          Outside of my work, I enjoy spending time seeing friends and family, working out, going on walks, playing video games, I enjoy playing my guitars, and leather crafting.
         </p>
       </div>
       <div className="w-[35%] text-right self-start flex flex-col items-end">
