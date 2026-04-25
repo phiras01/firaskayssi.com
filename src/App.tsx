@@ -81,7 +81,7 @@ function Research() {
 function Teaching() {
   return (
     <div className="max-w-3xl mx-auto">
-      <h2 className="text-2xl font-bold mb-6 text-center">Teaching Experience</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Teaching Assistance Experience</h2>
       <ul className="list-disc pl-6 space-y-3 text-lg leading-relaxed">
         <li><strong>2CT3 Critical Thinking</strong> (philosophy department), Fall 2023</li>
         <li><strong>1BB3 Argumentation</strong> (philosophy department), Winter 2024</li>
