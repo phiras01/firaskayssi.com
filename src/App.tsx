@@ -29,18 +29,16 @@ function About() {
       <div className="w-[60%] pr-8">
         <h2 className="text-2xl font-bold mb-4">About</h2>
         <p className="leading-relaxed mb-4">
-          I am a philosopher in training doing my Ph.D. at York University in Toronto. 
-          Before this, I did my M.A. in Philosophy at McMaster Unversity and my B.A. in Economics and Philosophy at Western University.
+          I am a Ph.D. candidate in philosophy at York University in Toronto. I hold a Master's in Philosophy from McMaster Unversity and a B.A. in Economics from Western University.
         </p>
         <p className="leading-relaxed mb-4">
-          My research area in general is the philosophy of mind and artificial intelligence. I've done research in social cognition, phenomenology, AI value alignment and moral patiency more specifically. I retain an ongoing interest in consciousness studies.
+          I research the philosophy of mind and artificial intelligence. I've also done research in social cognition, phenomenology, AI value alignment and moral patiency. I retain an ongoing interest in consciousness studies.
         </p>
         <p className="leading-relaxed mb-4">
-          Between my M.A. and Ph.D., I was a research assistant at The/La Collaborative, a non-profit think tank focused on promoting the impact of social sciences, humanities, and arts on social innovation.
+          I was a research assistant at The/La Collaborative, a non-profit think tank focused on promoting the impact of social sciences, humanities, and arts on social innovation.
         </p>
         <p className="leading-relaxed">
-          Outside of my work, I like spending time seeing friends and family, working out, going on walks, playing video games; my guitars,
-          and leather crafting.
+          Outside of my work, I like spending time seeing friends and family, working out, going on walks, playing video games, I enjoy playing my guitars, and leather crafting.
         </p>
       </div>
       <div className="w-[35%] text-right self-start flex flex-col items-end">
