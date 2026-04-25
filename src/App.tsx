@@ -32,7 +32,7 @@ function About() {
           I am a Ph.D. candidate in Philosophy at York University in Toronto. I hold a Master's in Philosophy from McMaster Unversity and a B.A. in Economics from Western University.
         </p>
         <p className="leading-relaxed mb-4">
-          I research the philosophy of mind and artificial intelligence. I've also done research in social cognition, phenomenology, AI value alignment and moral patiency. I retain an ongoing interest in consciousness studies.
+          My interests are in the philosophy of mind and artificial intelligence. I've done research in social cognition, phenomenology, AI value alignment and moral patiency, and I retain an ongoing interest in consciousness studies.
         </p>
         <p className="leading-relaxed mb-4">
           I was a research assistant at The/La Collaborative, a non-profit think tank focused on promoting the impact of social sciences, humanities, and arts on social innovation.
