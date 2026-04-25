@@ -29,7 +29,7 @@ function About() {
       <div className="w-[60%] pr-8">
         <h2 className="text-2xl font-bold mb-4">About</h2>
         <p className="leading-relaxed mb-4">
-          I am a Ph.D. candidate in philosophy at York University in Toronto. I hold a Master's in Philosophy from McMaster Unversity and a B.A. in Economics from Western University.
+          I am a Ph.D. candidate in Philosophy at York University in Toronto. I hold a Master's in Philosophy from McMaster Unversity and a B.A. in Economics from Western University.
         </p>
         <p className="leading-relaxed mb-4">
           I research the philosophy of mind and artificial intelligence. I've also done research in social cognition, phenomenology, AI value alignment and moral patiency. I retain an ongoing interest in consciousness studies.
