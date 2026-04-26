@@ -4,6 +4,7 @@
  */
 
 import { BrowserRouter, Routes, Route, NavLink, Navigate } from 'react-router-dom';
+import cvPdf from './Lucas CV.pdf';
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -38,7 +39,7 @@ function About() {
           I was a research assistant at The/La Collaborative, a non-profit think tank focused on promoting the impact of social sciences, humanities, and arts on social innovation.
         </p>
         <p className="leading-relaxed">
-          Outside of my work, I enjoy spending time seeing friends and family, working out, going on walks, playing video games, playing my guitars, and leather crafting.
+          Outside of my work, I enjoy spending time with friends and family, working out, going on walks, playing video games, playing my guitars, and leather crafting.
         </p>
       </div>
       <div className="w-[35%] text-right self-start flex flex-col items-end">
@@ -53,7 +54,7 @@ function About() {
         </p>
         <p className="leading-relaxed text-lg">
           <a 
-            href="https://cdn.jsdelivr.net/gh/phiras01/firaskayssi.com@main/Lucas%20CV.pdf" 
+            href={cvPdf} 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
