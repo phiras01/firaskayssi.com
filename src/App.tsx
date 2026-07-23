@@ -72,8 +72,7 @@ function Research() {
     <div className="text-center">
       <h2 className="text-2xl font-bold mb-4">Research</h2>
       <p className="leading-relaxed">
-        Welcome to the Research page. Here, you will find details about Lucas Firas Kayssi's research work, 
-        publications, and ongoing projects. This section will be updated soon.
+        This section will soon be updated with my publications, manuscripts, and writing samples.
       </p>
     </div>
   );
