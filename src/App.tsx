@@ -87,8 +87,9 @@ function Teaching() {
         <li><strong>1BB3 Argumentation</strong> (philosophy department), Winter 2024</li>
         <li><strong>1F03 Meaning in Life</strong> (philosophy department), Fall 2024</li>
         <li><strong>1E03 Philosophical Questions</strong> (philosophy department), Winter 2025</li>
-        <li><strong>PHIL1000 Intro to Philosophy</strong> (philosophy department), Fall 2025–Winter 2026</li>
+        <li><strong>PHIL1000 Intro to Philosophy</strong> (philosophy department), AY 2025–26</li>
         <li><strong>MODR 1730 Reasoning About Social Issues</strong> (philosophy department), Summer 2026</li>
+        <li><strong>MODR 1730C Reasoning About Social Issues</strong> (philosophy department), AY 2026–27</li>
       </ul>
     </div>
   );
